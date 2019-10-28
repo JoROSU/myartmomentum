@@ -379,7 +379,87 @@
             },
             mainClass: "mfp-fade"
         });
-        $(".work-ext-link-tryanglist").magnificPopup({
+        $(".work-lightbox-link-karolinanojber").magnificPopup({
+            items: [
+                {
+                  src: 'images/portfolio/karolinanojber/1.jpg', 
+                  type: 'image',
+                  title: "Karolina Nojber"
+                },
+                {
+                    src: 'images/portfolio/karolinanojber/2.jpg', 
+                    type: 'image',
+                    title: "Karolina Nojber"
+                },
+                {
+                    src: 'images/portfolio/karolinanojber/3.jpg', 
+                    type: 'image',
+                    title: "Karolina Nojber"
+                },
+                {
+                    src: 'images/portfolio/karolinanojber/4.jpg', 
+                    type: 'image',
+                    title: "Karolina Nojber"
+                },
+                {
+                    src: 'images/portfolio/karolinanojber/5.jpg', 
+                    type: 'image',
+                    title: "Karolina Nojber"
+                },
+                {
+                    src: 'images/portfolio/karolinanojber/6.jpg', 
+                    type: 'image',
+                    title: "Karolina Nojber"
+                },
+              ],
+            gallery: {
+                enabled: true
+            },
+            mainClass: "mfp-fade"
+        });
+        $(".work-lightbox-link-conference").magnificPopup({
+            items: [
+                {
+                  src: 'images/portfolio/conference/1.jpg', 
+                  type: 'image',
+                  title: "Conference"
+                },
+                {
+                  src: 'images/portfolio/conference/1.jpg', 
+                  type: 'image',
+                  title: "Conference"
+                }
+                
+              ],
+            gallery: {
+                enabled: true
+            },
+            mainClass: "mfp-fade"
+        });
+        $(".work-lightbox-link-illusion").magnificPopup({
+            items: [
+                {
+                  src: 'images/portfolio/museumOfIllusion/2.jpg', 
+                  type: 'image',
+                  title: "Exhibition Design"
+                },
+                {
+                src: 'images/portfolio/museumOfIllusion/1.jpg', 
+                  type: 'image',
+                  title: "Exhibition Design"
+                },
+                {
+                src: 'images/portfolio/museumOfIllusion/3.jpg', 
+                  type: 'image',
+                  title: "Exhibition Design"
+                }
+              ],
+            gallery: {
+                enabled: true
+            },
+            mainClass: "mfp-fade"
+        });
+        $(".work-lightbox-link-tryanglist").magnificPopup({
             items: [
                 {
                     src: 'images/portfolio/tryanglist/1.jpg', 
@@ -484,8 +564,12 @@
                     src: 'images/portfolio/switzerland/1.jpg', 
                     type: 'image',
                     title: "Switzerland"
+                },
+                {
+                    src: 'images/portfolio/switzerland/4.jpg', 
+                    type: 'image',
+                    title: "Switzerland"
                 }
-                
               ],
             gallery: {
                 enabled: true
