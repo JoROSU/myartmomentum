@@ -363,16 +363,25 @@
         $(".work-lightbox-link-sipka").magnificPopup({
             items: [
                 {
-                  src: 'images/portfolio/WebDesign.jpg', 
+                  src: 'images/portfolio/bojansipka/1.jpg', 
                   type: 'image',
                   title: "Web Portfolio for an artist"
                 },
                 {
-                  src: 'images/portfolio/project-WebDesign.jpg', 
-                  type: 'image',
-                  title: "Simple and Minimalistic"
+                    src: 'images/portfolio/bojansipka/2.jpg', 
+                    type: 'image',
+                    title: "Web Portfolio for an artist"
+                },
+                {
+                    src: 'images/portfolio/bojansipka/3.jpg', 
+                    type: 'image',
+                    title: "Web Portfolio for an artist"
+                },
+                {
+                    src: 'images/portfolio/bojansipka/4.jpg', 
+                    type: 'image',
+                    title: "Web Portfolio for an artist"
                 }
-                
               ],
             gallery: {
                 enabled: true
