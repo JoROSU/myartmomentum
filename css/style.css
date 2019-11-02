@@ -3395,6 +3395,7 @@ a.logo:hover{
     width: 100%;
     height: 84px;
     padding: 20px 20px 0 20px;
+    background:rgba(255, 255, 255, 0.50);
     
     -webkit-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -3419,17 +3420,17 @@ a.logo:hover{
     font-size: 11px;
     text-align: center;
     text-transform: uppercase;
-    color: #aaa;
+    color: #111;
     line-height: 1.2;
 }
 .works-grid.hide-titles .work-item > a{
     overflow: hidden;    
     padding: 0;
 }
-.works-grid.hide-titles .work-item .work-intro{
+/* .works-grid.hide-titles .work-item .work-intro{
     opacity: 0;
     bottom: -94px;
-}
+} */
 .works-grid.hide-titles .work-item:hover .work-intro{
     opacity: 1;
 }
@@ -3438,25 +3439,25 @@ a.logo:hover{
 
 /* Work item hover state */
 
-.work-intro{
+/* .work-intro{
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-}
+} */
 
-.work-item:hover .work-intro{
+/* .work-item:hover .work-intro{
     /*bottom: auto;*/
     /*top: 50%;*/
-    color: #fff;
+    /* color: #fff;
     
     -webkit-transform: translateY(-99px);
     -moz-transform: translateY(-99px);
     transform: translateY(-99px);    
     
     z-index: 3; 
-}
+} */ 
 .work-item:hover .work-title{
     color: #ccc;
 }
